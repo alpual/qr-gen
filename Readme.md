@@ -34,8 +34,10 @@ qr-gen https://example.com -f example
 
 ### Options
 
+```
   -V, --version              output the version number
   -c, --color  [value]       A hex color for the foreground. Default to black
   -b, --background  [value]  A hex color for the background. Default to white
   -f, --filename [value]     The file name. Defaults to qr-code.svg
   -h, --help                 display help for command
+```
