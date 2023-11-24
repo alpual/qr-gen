@@ -32,12 +32,18 @@ qr-gen https://example.com
 qr-gen https://example.com -f example
 ```
 
+- Generate a QR code called `example.svg` with a specified color
+
+```sh
+qr-gen https://example.com -c #FF1234
+```
+
 ### Options
 
 ```
-  -V, --version              output the version number
+  -V, --version              Output the version number
   -c, --color  [value]       A hex color for the foreground. Default to black
   -b, --background  [value]  A hex color for the background. Default to white
   -f, --filename [value]     The file name. Defaults to qr-code.svg
-  -h, --help                 display help for command
+  -h, --help                 Display help for command
 ```

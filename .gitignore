@@ -10,3 +10,6 @@ web_modules/
 
 # OS files
 .DS_Store
+
+# Generated SVG files
+*.svg
